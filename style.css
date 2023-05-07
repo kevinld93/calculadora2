@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+ overflow: hidden;
+}
+body{
+    background-color:black
+}
+ .dolaroficial{
+    position: absolute;
+  top:10cm;
+  left: 10cm;
+  height: 35vh;
+ }
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: green;
+}
+h2{
+    color: green;
+}
+.textp{
+    color: green;
+    font-size: larger;  
+}
+.text{
+    color: green;
+    font-size: larger;
+}
+.form-control{
+    width: 50%;
+}
+.form1{
+    position: relative;
+    left: 1cm;
+    bottom: 6.5cm;
+}
+.dolar{
+    position: relative;
+    left:0.5cm;
+    width: 80%;
+}
+.peso{
+    position: relative;
+    left: 28cm;
+    bottom: 3cm;
+    width: 65%;
+}
+.simb{
+    position: relative;
+    bottom: 6.5cm;
+    left: 16cm;
+}
+
+ 
+.cua{
+    position: relative;
+ bottom: 13cm;
+ left: 24cm;
+    width: 400px;
+    height: 330px;
+    background-color: rgb(0, 0, 0);
+color: white;
+ font-size:x-large;
+
+}
+ 
+p{
+    color: green;
+}
+ .btn{
+    margin: 0.1cm;
+ }
+
+ @media (max-width: 425px) {
+h1{
+    position: relative;
+   right: 0.8cm;
+   margin-bottom: 0.5cm;
+ font-size:30px;
+}}
+
+ 
+@media (max-width: 425px) {
+#formulario{
+        position: relative;
+        top: 0.1cm;
+        left: 0.3cm;
+        
+    }}
+    @media (max-width: 425px) {
+    .simb{
+                position: relative;
+               bottom: 2cm;
+               left:2cm;
+                
+            }}
+  @media (max-width: 425px) {
+    .peso{
+                position: relative;
+               top: 1.4cm;;
+               left:0.8cm;
+               width: 15cm;
+               
+                
+                
+                
+            }}
+            @media (max-width: 425px) {
+                .dolar{
+                      position: relative; 
+                     width: 15cm;}}
+            @media (max-width: 425px) {
+                .cua{
+                      position: relative; 
+                     left: 0.5cm;
+                     font-size: 18px;
+                     bottom: 1.2cm;  }}
+        
+
+     
+        

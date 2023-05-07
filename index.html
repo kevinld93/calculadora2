@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Calculadora de impuestos</h1>
+  <div class="dolaroficial"><iframe style=" width:200px;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #080808" src="https://dolarhoy.com/i/cotizaciones/dolar-bancos-y-casas-de-cambio" frameborder="0"></iframe></div>
+</body>
+  <div class="dolar">
+    <img src="Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpg" alt="" width="30%">
+  </div>
+  <div class="peso">
+    <img src="Sy--VCalf_1256x620.webp" alt="" width="30%" height="20%">
+  </div>
+  <div class="simb">
+    <img src="png-transparent-equals-sign-symbol-equality-mathematics-square-miscellaneous-rectangle-black.png" alt=""
+      width="10%">
+  </div>
+
+  <form class="form1" id="formulario">
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="text">Ingrese precio dolar</label>
+      <input type="number" class="form-control" id="precio" placeholder="">
+
+    </div>
+
+
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="text" id="producto2">Precio del producto</label>
+      <input type="number" class="form-control" id="producto" class="producto" placeholder=" ">
+     
+    </div>
+
+
+
+    </div>
+
+    <br>
+
+    <button type="button" class="btn btn-primary btn-lg" onclick="calcular();">Calcular</button>
+    <button type="button" class="btn btn-primary btn-lg" onclick="borrar();">Borrar</button>
+
+
+  </form>
+  <br><br>
+  <div class="cua">
+    <p class="imp">El dolar con impuesto es:</p>
+    <p id="impuesto"></p>
+
+    <p>El impuesto a pagar del producto es:</p>
+    <p id="impuesto4"></p>
+    <p class="total1">El total a pagar es:</p>
+    <p id="total"></p>
+
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
